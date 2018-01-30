@@ -13,7 +13,7 @@ Components are where shared components exist.
 
 **Route specific** -- Where the route has its own component folder.  Such as the route-with-componets route where I want to make sure I have an edit-component as well as a details-component, as well as any other components that make up the main component. This is so anywhere I am showing the main route component I can use the details view and anytime I need to make an edit, the component is ready to rock.
 
-#Models#
+# Models #
 These are the classes that define the various models in your application, at each level. At the root level we have application-wide models such as the User.
 
 # Resources #
@@ -27,7 +27,7 @@ The routes directory is a great way of grouping content. Typically if a route im
 **The route-with-componets**, using a face as the main component is made up of left-eye, mouth, right-eye etc..., these components are used to build the face. In keeping it modular you can do things like changing how the right eye works by changing the right eye component without affecting the rest of what makes up the face. 
 
 
-**The route-with-componets-models-subroutines **shows a combination of components, modules, and routes.
+**The route-with-componets-models-subroutines** shows a combination of components, modules, and routes.
 
 **Index.js and Index.html is the entry point**, but I am not sure if I want to use the index style or just have the face.js and face.html as the entry point 
 
@@ -39,8 +39,6 @@ Where generic non-app specific code lives. Utility classes and functions for doi
 
 # Assets #
 Where all assets of the app live (with separate sub-folders)
-
-# Models #
 
 
 # Maybe fore electron only #
